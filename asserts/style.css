@@ -1,0 +1,239 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    height: 100%;
+}
+body {
+    background: #1a1010;
+    height: 100%;
+}
+
+
+a {
+    text-decoration: none;
+}
+#header {
+    float: left;
+    width: 100%;
+    background: #1c1919;
+    position: relative;
+}
+
+.header-nav {
+    min-height: 64px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: #333434;
+}
+.menu-button {
+    float: left;
+    font-size: 29px;
+    color: #131111;
+    padding: 12px 19px;
+}
+
+
+.font-icon i:after {
+    position: absolute;
+    content: "3";
+    background: #2e2a2a;
+    color: #fff;
+    font-size: 12px;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    padding: 3px 4px 4px 3px;
+    text-align: center;
+    top: 12px;
+    right: 11px;
+}
+
+.nav-profile {
+    background:#2A2D33;
+}
+.nav-profile-image img {
+    width: 39px;
+    height: 41px;
+    border-radius: 50%;
+    float: left;
+}
+.nav-profile-name {
+    float: right;
+    margin: 11px 7px 8px 14px;
+    color: #fff;
+}
+.nav-profile-name i {
+    padding: 0 0 0 11px;
+}
+.nav-chat i:after {
+    display: none;
+}
+#sidebar {
+    overflow: hidden;
+    width: 200px;
+    height: 100%;
+    float: left;
+    background: #2A2D33;
+    color: #2A2D33;
+}
+#sidebar-nav {
+    width: 150%;
+    height: 1000px;
+    padding: 0;
+    background: #2A2D33;
+    border-right: 1px solid #E0E0E0;
+    
+}
+#sidebar-nav h2 {
+    color: #60636B;
+    float: left;
+    width: 100%;
+    font-size: 0.8em;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 3px 0 2px 20px;
+    border-top: 1px solid #4D4C4C;
+    box-sizing: border-box;
+    margin: 10px 0;
+}
+
+#sidebar-nav ul li a {
+    color: #C2C2C2;
+    font-size: 0.95em;
+    padding: 15px 20px;
+    float: left;
+    width: 100%;
+    font-weight: 600;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#sidebar-nav li.active a i {
+    color: #333;
+}
+#sidebar-nav ul li:hover a {
+    background: #fff;
+    color: #333;
+}
+#sidebar-nav ul li.active a {
+    background: #fff;
+    color: #333;
+}
+#sidebar-nav ul li.active a i {
+    background: #fff;
+}
+#sidebar-nav i {
+    padding-right: 8px;
+    font-size: 1.3em;
+    color: #60636B;
+    width: 25px;
+    text-align: center;
+}
+#content {
+    float: left;
+    width: calc(100% - 210px);
+    height: 100%;
+    word-wrap: break-word;
+    background: #FFFFFF;
+    font-family: Raleway, sans-serif;
+}
+
+.content {
+    float: left;
+    background: #010110;
+    width: 100%;
+    height: calc(100% - 64px);
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.content-header {
+    background: #212122;
+    float: left;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 15px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border-bottom: 1px solid #ccc;
+    color: white;
+}
+.content-header h1 {
+    margin: 0;
+    font-weight: normal;
+    padding-bottom: 5px;
+}
+.content-header p {
+    margin: 0;
+    padding-left: 2px;
+}
+.widget-box {
+    background:#232324;
+    border: 1px solid#232324;
+    float: left;
+    width: 100%;
+    margin: 0 0 15px 15px;
+    color: whitesmoke;
+}
+.widget-header {
+    background:solid 400px #43014c;
+    padding-left:left ;
+
+}
+.widget-header h2 {
+    font-size: 15px;
+    font-weight: normal;
+    margin: 0;
+    padding: 11px 15px;
+    color: #F9F9F9;
+    display: inline-block;
+}
+.sample-widget {
+    max-width: 100%;
+    max-height: 100%;
+    background-color: #101011;
+}
+.widget-box .fa-cog {
+    float: right;
+    color: #fff;
+    margin: 11px 11px 0 0;
+    font-size: 20px;
+}
+.box{
+    border: solid 2px black ;
+    background-color: #232324;
+    border-left-color: blueviolet; 
+    width: 200px;
+    height:100px;
+    text-align: center;
+    margin-bottom: bold;
+    width: 600px; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    overflow: hidden;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}
+.box1{
+    position:static;
+    right: 20px;
+    bottom: 10px;
+}
+
+.box2{
+    position: fixed;
+    right: 3000px;
+    top: 10px;
+}
+
+.box3{
+    position:static;
+    right: 29px;
+    bottom: 10px;
+}
+
